@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light">
+    <h1>Rock Paper Scissor</h1>
+
+    <!-- Difficulty Level Selection -->
+    <div class="container">
+        <div id="difficulty-selection">
+            <h2>Select Difficulty Level:</h2>
+            <button id="easy-mode">Easy</button>
+            <button id="hard-mode">Hard</button>
+        </div>
+    </div>
+
+    <!-- Game Container -->
+    <div id="game" style="display: none;">
+        <button id="mode">Dark Mode</button>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="./images/rock.png" />
+            </div>
+            <div class="choice" id="paper">
+                <img src="./images/paper.png" />
+            </div>
+            <div class="choice" id="scissors">
+                <img src="./images/scissors.png" />
+            </div>
+        </div>
+
+        <div class="score-board">
+            <div class="score">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p>Computer</p>
+            </div>
+        </div>
+
+        <div class="msg-container">
+            <p id="msg">Play your move</p>
+        </div>
+        <button id="reset">Reset Game</button>
+        
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

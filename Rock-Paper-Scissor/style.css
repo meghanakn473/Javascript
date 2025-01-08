@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+  }
+
+  h2{
+    color: black;
+    height: 5rem;
+    line-height: 5rem;
+    display: flex;
+
+  }
+
+  .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Difficulty Selection Styling */
+  #difficulty-selection {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  #difficulty-selection button {
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  #difficulty-selection button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Hide Difficulty Selection After Game Starts */
+  #game {
+    margin-top: 20px;
+  }
+  
+  .choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+  }
+  
+  img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+  
+  .score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+  }
+  
+  #user-score,
+  #comp-score {
+    font-size: 4rem;
+  }
+  
+  .msg-container {
+    margin-top: 5rem;
+  }
+  
+  #msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    gap: 10rem;
+    border-radius: 1rem;
+  }
+  #reset{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 1.8rem;
+    display: inline;
+    margin-top: 2%;
+    padding: 1rem;
+    gap: 10rem;
+    border-radius: 1rem;
+  }
+
+  .dark{
+    background-color: black;
+    color:white;
+  }
+
+  .light{
+    background-color: white;
+    color:black;
+  }
+
+  #mode{
+    margin-top: 1%;
+    background-color: #081b31;
+    color: #fff;
+    height: 3rem;
+    width: 9rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    border-radius: 1rem;
+  }
