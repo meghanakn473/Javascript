@@ -31,8 +31,8 @@ Welcome to my JavaScript Projects repository! This collection includes three eng
    ```bash  
    git clone https://github.com/meghanakn473/Javascript.git
 2. Navigate to the project folder and open the respective HTML file in your browser:
-    cd your-repo-name  
-    open index.html  
+    - cd your-repo-name  
+    - open index.html  
 3. Enjoy the games directly in your browser!
 
 ## TechStack
@@ -46,8 +46,9 @@ Contributions are welcome! If you'd like to improve or add features to these pro
 2. Create a feature branch:
    ```bash
    git checkout -b feature/your-feature-name
+   ```
 3. Commit your changes and push the branch:
-  ```bash
-  git push origin feature/your-feature-name
-  ```
+   ```bash
+    git push origin feature/your-feature-name
+    ```
 4. Submit a pull request explaining your changes. 
